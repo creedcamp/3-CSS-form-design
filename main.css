@@ -7,7 +7,7 @@ body {
 input,
 select {
   background-color: #5ba2d5;
-  border: 1px solid yellow;
+  border: 1px solid white;
   flex-direction: column;
 }
 
@@ -15,13 +15,13 @@ form {
   display: flex;
   justify-content: space-around;
   margin: 3.25%;
+  height: 90%;
   padding-bottom: 20px;
   background-color: #5ba2d5;
-  border: 1px solid yellow;
 }
 
 .containers {
-  border: 1px solid yellow;
+  height: 80%;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0%;
@@ -29,39 +29,36 @@ form {
 }
 
 .container1 {
-  border: 1px solid yellow;
   display: flex;
-  justify-items: space-between;
+  justify-items: space-around;
 }
 
 .container2 {
-  border: 1px solid yellow;
+  display: flex;
+  justify-items: space-around;
 }
 
 .container3 {
-  border: 1px solid yellow;
+  display: flex;
+  justify-items: space-around;
 }
 
 .gc {
   display: flex;
   flex-direction: column;
-  justify-items: space-around;
-  border: 1px solid yellow;
+  justify-items: space-evenly;
 }
 
 .gc label,
-select,
-input {
+select {
   margin: 3%;
 }
 
 .box-sizing {
   padding: 30px;
-  border: 1px solid yellow;
   margin: 0%;
 }
 
 .box-sizing [type="text"] {
   margin: 0;
-  border: 1px solid yellow;
 }
