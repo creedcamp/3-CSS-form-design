@@ -1,64 +1,16 @@
 body {
-  margin: 0%;
-  height: 100%;
-  background-color: black;
-}
-
-input,
-select {
-  background-color: #5ba2d5;
-  border: 1px solid white;
-  flex-direction: column;
-}
-
-form {
-  display: flex;
-  justify-content: space-around;
-  margin: 3.25%;
-  height: 90%;
-  padding-bottom: 20px;
-  background-color: #5ba2d5;
+  background-color: skyblue;
 }
 
 .containers {
-  height: 80%;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0%;
-  justify-items: center;
-}
-
-.container1 {
   display: flex;
-  justify-items: space-around;
-}
-
-.container2 {
-  display: flex;
-  justify-items: space-around;
-}
-
-.container3 {
-  display: flex;
-  justify-items: space-around;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .gc {
   display: flex;
-  flex-direction: column;
-  justify-items: space-evenly;
-}
-
-.gc label,
-select {
-  margin: 3%;
-}
-
-.box-sizing {
-  padding: 30px;
-  margin: 0%;
-}
-
-.box-sizing [type="text"] {
-  margin: 0;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-top: 20%;
 }

@@ -8,9 +8,8 @@
   </head>
 
   <body>
-    <div class="containers">
-      <form action="" method="GET">
-        <div class="container 1">
+      <form class="containers" action="">
+        <div class="column">
           <div class="gc">
             <label for="fname">first name</label>
             <input id="fname" type="text" name="fname" value="John" />
@@ -42,19 +41,18 @@
           </div>
           <!-- 4 -->
           <div class="gc">
-            <div class="box-sizing">
               <label for="biography">Biography</label>
-              <input
+              <textarea
                 id="biography"
                 type="text"
-                name="biography"
-                value="Your life story"
-              />
-            </div>
+                rows="3"
+                cols="3"
+                placeholder="So....how's life?"
+              ></textarea>
           </div>
           <!-- 5 -->
         </div>
-        <div class="container 2">
+        <div class="column">
           <div class="gc">
             <label for="phone number">Phone Number</label>
             <input
@@ -66,15 +64,14 @@
           </div>
           <!-- 6 -->
           <div class="gc">
-            <div class="box-sizing">
               <label for="affiliations">Affiliations</label>
-              <input
+              <textarea
                 id="affiliations"
                 type="text"
-                name="affiliations"
-                value="Who sent you?!?"
-              />
-            </div>
+                rows= "3"
+                cols= 3
+                placeholder="Who do you know? Who sent you."
+              ></textarea>
           </div>
           <!-- 7 -->
           <div class="gc">
@@ -108,7 +105,7 @@
           </div>
           <!-- 10 -->
         </div>
-        <div class="container3">
+        <div class="column">
           <div class="gc">
             <label for="type of talent">Type of talent</label>
             <select name="type of talent" type="text" id="type of talent">
@@ -152,15 +149,14 @@
           </div>
           <!-- 14 -->
           <div class="gc">
-            <div class="box-sizing">
               <label for="comments">Comments</label>
-              <input
+              <textarea
                 id="comments"
-                type="text"
                 name="comments"
-                value="Comments, compliments, and get out?"
-              />
-            </div>
+                rows = 3
+                cols = 3
+                value="Comments, compliments, and other stuff.?"
+              ></textarea>
           </div>
           <!-- 15 -->
         </div>
