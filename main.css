@@ -12,5 +12,27 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  margin-top: 20%;
+  margin: 25px;
 }
+
+input,
+select {
+  background-color: skyblue;
+  font-style: italic;
+  color: white;
+}
+textarea {
+  background-color: skyblue;
+  color: white;
+}
+.column {
+  width: 20%;
+}
+
+/* entered text will be colored white, but I couldn't get the placeholder values to be colored before typing occurs */
+/* input#phone-number {
+  color: white;
+} */
+/* textarea.type {
+  color: white;
+} */
